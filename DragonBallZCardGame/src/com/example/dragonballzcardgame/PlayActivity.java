@@ -213,8 +213,15 @@ public class PlayActivity extends ActionBarActivity {
 		alertDialog.show();
 	}
 	
+	//some random function to test github
+	private void randomcode()
+	{
+		System.out.println("random code");
+	}
+	
 	private void newGame()
 	{
+		randomcode();
 		btn1Ki.setVisibility(Button.VISIBLE);
 		btn1Force.setVisibility(Button.VISIBLE);
 		btn1Intelligence.setVisibility(Button.VISIBLE);
